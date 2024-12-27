@@ -12,4 +12,6 @@ public interface Apiconexao {
     @GetMapping("{cep}/json")
     CepDto cepDto(@PathVariable("cep") String cep);
 
+    
+
 }
