@@ -26,9 +26,9 @@ public class CepService {
         if(cepDto == null){
             throw new Exception("Cep não encontrado?");
         }
-                
+        // Converte o CepDto para a entidade Cep     
         Cep cepEntity = new Cep(
-            null,
+            null,// ID gerado automaticamente
             cepDto.cep(),
             cepDto.logradouro(),
             cepDto.complemento(),
@@ -36,7 +36,7 @@ public class CepService {
             cepDto.bairro(),
             cepDto.localidade()
         );   
-        
+        // Salva no Banco de Dados
         return cepRepository.save(cepEntity);
     }
 
