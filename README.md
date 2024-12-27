@@ -12,7 +12,7 @@ API para gerenciar tarefas (CRUD) que faz parte [desse desafio](https://github.c
 - [Spring Data JPA](https://spring.io/projects/spring-data-jpa)
 - [SpringDoc OpenAPI 3](https://springdoc.org/v2/#spring-webflux-support)
 - [Mysql](https://dev.mysql.com/downloads/)
-- [OpenFeign](org.springframework.cloud)
+- [OpenFeign](https://spring.io/projects/spring-cloud-openfeign)
 
 ## Práticas adotadas
 
@@ -46,14 +46,14 @@ Para fazer as requisições HTTP abaixo, foi utilizada a ferramenta [httpie](htt
 - 
 $ Metodo Post Consulta Cep e salva em Lista http://localhost:8080/api/endereco/cep/11460000
 
- ![Post-Todo ](https://github.com/user-attachments/assets/521ac654-0a4c-42e3-b739-98b284ae8237)
+![Get-Busca por Cep - AluraFilmes 27_12_2024 13_23_58](https://github.com/user-attachments/assets/0fd6d1fa-76d1-4d35-bc9f-df32bed80d2a)
 
 ```
 
 - Busca Por Cep
 ```
 $  Metodo Get Busca Cep http://localhost:8080/api/endereco/cep/11454000
-![Get-Todo ](https://github.com/user-attachments/assets/ea4a5436-64e8-47bb-b220-14116f1f833a)
+![Get-Busca por Cep - AluraFilmes 27_12_2024 13_23_38](https://github.com/user-attachments/assets/77b20136-7aab-474b-976c-0d0242b4fc1d)
 
 
 ```
@@ -61,12 +61,13 @@ $  Metodo Get Busca Cep http://localhost:8080/api/endereco/cep/11454000
 - Lista de Ceps
 ```
 $  Metodo Get Lista Cep http://localhost:8080/api/endereco/cep
-![Get-Todo ](https://github.com/user-attachments/assets/ea4a5436-64e8-47bb-b220-14116f1f833a)
+![Get-Busca por Cep - AluraFilmes 27_12_2024 13_24_13](https://github.com/user-attachments/assets/ad7b1196-b3a3-41ef-bb32-b1c7f0b74cc9)
 
+```
 
 - Remover Cep
 ```
 Metodo Delete http://localhost:8080/veiculos/1
-![Delete-Todo ](https://github.com/user-attachments/assets/5330e54e-059d-48b8-883b-c2ad86ab826d)
+![Get-Busca por Cep - AluraFilmes 27_12_2024 13_24_24](https://github.com/user-attachments/assets/c1313cd4-d375-4892-bec4-428a2896d1ba)
 
 ```
